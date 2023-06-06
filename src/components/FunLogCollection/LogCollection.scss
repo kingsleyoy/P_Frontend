@@ -1,0 +1,37 @@
+.log-container{
+    width: 100%;
+    margin-bottom: 25px;
+    .log-wrapper{
+        width: 90%;
+        margin: 0 auto;
+        h4{
+            text-align: center;
+            margin: 15px 0;
+            color: #000;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+            font-weight: 900;
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .log-container{
+        .log-wrapper{
+            h4{
+                font-size: 14px;
+                word-spacing: 2px;
+                letter-spacing: normal;
+            }
+
+            ul{
+                padding-left: 10px;
+                li{
+                    a{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

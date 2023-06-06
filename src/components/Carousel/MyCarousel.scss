@@ -1,0 +1,45 @@
+.slide-div{
+    height: 60vh;
+    
+    img{
+        object-fit: fill;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .slide-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px 40px;
+        background-color: #000;
+        p{
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: 2px;
+            word-spacing: 10px;
+            line-height: 1.5;
+        }
+    }
+   
+}
+
+@media(max-width: 700px){
+    .slide-div{
+        height: 50vh;
+
+        .slide-text{
+        padding: 10px 20px;
+        background: #000;
+        p{
+            font-size: 14px;
+            word-spacing: 5px;
+        }
+    }
+    }
+
+}
