@@ -9,7 +9,7 @@ const LogCollection = () => {
         <h4>FUNLOG COLLECTION</h4>
         <ul>
           <li>
-            <Link>Intellect Insurgence</Link>
+            <Link to={"intellect_insurgence"}>Intellect Insurgence</Link>
           </li>
         </ul>
       </div>

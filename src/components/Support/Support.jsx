@@ -3,13 +3,12 @@ import "./Support.scss";
 import { PaystackButton } from "react-paystack";
 
 const Support = () => {
-  const publicKey = "pk_test_a4cb605a13c0e909763147eb34d81b80337e4f7f";
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [count, setCount] = useState(1);
   const quantity = `${count}`;
   const amount = 50000 * count;
-  console.log(process.env.PUBLIC_KEY);
   const componentProps = {
     email,
     amount,
